@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Contact from "./Contact/Contact";
+import { GlobalProvider } from "./Context/GlobalContext.js";
+import CoverLetter from "./CV/CoverLetter";
+import Home from "./Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalProvider>
+      <div className="min-h-screen font-montserrat">
+        <Home />
+        <CoverLetter />
+        <Contact />
+      </div>
+    </GlobalProvider>
   );
 }
 
