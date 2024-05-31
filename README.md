@@ -1,5 +1,5 @@
 # A new all-in-one template website for showcasing portfolio, skills and interests.
-# The beta website is available here. 
+# The beta website is available here: https://digital-cover-letter.netlify.app/
 This is a personal portfolio website, which serves as a comprehensive digital cover letter and showcase of your work.
 I Nanda Kishore(@mnkr9870), developed it using React JS and Tailwind CSS.
 
