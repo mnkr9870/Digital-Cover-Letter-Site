@@ -21,7 +21,7 @@ const Contact = () => {
           ></img>
         </div>
         <div className="mt-20 flex justify-center gap-6 md:gap-12">
-          <a href="mailto:nanda.mangunuri@gmail.com">
+          <a href="#">
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const Contact = () => {
               </svg>
             </div>
           </a>
-          <a href="https://wa.me/447555114093" target="_blank">
+          <a href="#" >
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <span>
                 <svg
@@ -54,8 +54,8 @@ const Contact = () => {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/nanda-mangunuri/"
-            target="_blank"
+            href="#"
+            
           >
             {" "}
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
@@ -77,7 +77,7 @@ const Contact = () => {
               </span>
             </div>
           </a>
-          <a href="https://github.com/mnkr9870/" target="_blank">
+          <a href="#" >
             {" "}
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <span>
@@ -95,7 +95,7 @@ const Contact = () => {
             </div>
           </a>
 
-          <a href="https://nandakishore.co.uk/" target="_blank">
+          <a href="#" >
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
