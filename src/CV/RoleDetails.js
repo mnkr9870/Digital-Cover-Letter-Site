@@ -18,7 +18,7 @@ const RoleDetails = () => {
       </div>
       <div className="mx-auto max-w-10xl px-6 text-left flex flex-col md:flex-row  gap-4">
         <div className="w-full md:w-1/2 my-5 rounded-lg p-5 bg-white/10">
-          <h1 className="text-cyan-400 font-bold text-lg md:text-xl lg:text-2xl text-center">
+          <h1 className="text-amber-400 font-bold text-lg md:text-xl lg:text-2xl text-center">
             {" "}
             What Do I Like About The Role ?
           </h1>
@@ -38,7 +38,7 @@ const RoleDetails = () => {
           </ul>
         </div>
         <div className="w-full md:w-1/2 h-30 my-5 rounded-lg p-5 bg-white/10">
-          <h1 className="text-cyan-400 font-bold text-lg md:text-xl lg:text-2xl text-center">
+          <h1 className="text-amber-400 font-bold text-lg md:text-xl lg:text-2xl text-center">
             {" "}
             What Can I Gain From This Role ?
           </h1>

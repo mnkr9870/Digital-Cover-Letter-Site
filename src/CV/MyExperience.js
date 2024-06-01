@@ -5,7 +5,7 @@ const MyExperience = () => {
   const { AllDetails } = useContext(GlobalContext);
   const howBestFit = AllDetails.howBestFit;
   const features = AllDetails.howBestFit.experience;
-  
+
   return (
     <div className="bg-black h-4/5 rounded-xl overflow-y-scroll scrollbar mt-5">
       <div className=" w-full h-30 my-3 p-2 rounded-lg text-center">
@@ -36,7 +36,7 @@ const MyExperience = () => {
             </div>
           </div>
           <div className="w-full h-30  rounded-lg p-5 lg:mt-5 bg-white/10">
-            <h1 className="text-cyan-400 font-bold text-2xl md:text-3xl lg:text-4xl">
+            <h1 className="text-amber-400 font-bold text-lg md:text-xl lg:text-2xl">
               {" "}
               As outlined in my Experience...
             </h1>
@@ -55,7 +55,7 @@ const MyExperience = () => {
           </div>
         </div>
         <div className="py-5 px-6 ">
-          <h2 className="text-3xl font-bold tracking-tight text-cyan-400 sm:text-4xl">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-amber-400 ">
             My Experience
           </h2>
           <p className="mt-4 text-white">{howBestFit.experienceHeadline}</p>

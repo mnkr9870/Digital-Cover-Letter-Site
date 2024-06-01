@@ -22,17 +22,17 @@ const Values = () => {
       <div className=" h-30 m-5 p-3 rounded-lg text-left ">
         <div className="flex flex-col lg:flex-row gap-4 ">
           <div className="basis-1/2  my-5  ">
-            <h1 className="w-full text-center text-cyan-400 font-bold text-2xl md:text-3xl lg:text-4xl">
+            <h1 className="w-full text-center text-amber-400 font-bold text-lg md:text-xl lg:text-2xl">
               {" "}
               My Values
             </h1>
-            <div className="w-full flex flex-row gap-y-2 gap-x-5 pt-10 justify-evenly text-amber-400  font-semibold">
+            <div className="w-full flex flex-row gap-y-2 gap-x-3 pt-10 justify-evenly text-amber-400  font-semibold">
               {valuesData.myValues.map((value) => (
                 <div
                   key={value.heading}
-                  className="w-[100px] h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-white border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
+                  className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-white border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className="w-full text-center  text-sm md:text-lg">
+                  <h1 className="w-full text-center  text-xs md:text-md lg:text-lg">
                     {value.heading}
                   </h1>
                 </div>
@@ -50,17 +50,17 @@ const Values = () => {
             </p>
           </div>
           <div className="basis-1/2  my-5 border-amber-400/50 ">
-            <h1 className="w-full text-center text-cyan-400 font-bold text-2xl md:text-3xl lg:text-4xl">
+            <h1 className="w-full text-center text-amber-400 font-bold text-lg md:text-xl lg:text-2xl">
               {" "}
               {companyDetails.companyName} Values
             </h1>
-            <div className="w-full flex flex-row gap-y-2 gap-x-5 pt-10 justify-evenly text-amber-400  font-semibold">
+            <div className="w-full flex flex-row gap-y-2 gap-x-3 pt-10 justify-evenly text-amber-400  font-semibold ">
               {valuesData.companyValues.map((value) => (
                 <div
                   key={value.heading}
-                  className="w-[100px] h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-amber-400 border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
+                  className=" w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-amber-400 border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className="w-full text-center  text-sm md:text-lg">
+                  <h1 className=" text-center text-xs md:text-md lg:text-lg">
                     {value.heading}
                   </h1>
                 </div>

@@ -18,7 +18,7 @@ const WorkPlace = () => {
       <div className="  h-30 my-3 p-3 rounded-lg text-left grid grid-cols-1 lg:grid-cols-2 gap-3">
         {preferencesData.preferencesArray.map((preference) => (
           <div className="mx-5 my-2 rounded-lg p-5 bg-white/10 ">
-            <h1 className="text-cyan-400 font-bold text-lg md:text-xl lg:text-2xl text-center h-1/4">
+            <h1 className="text-amber-400 font-bold text-lg md:text-xl lg:text-2xl text-center h-1/4">
               {preference.qus}
             </h1>
             <p className="text-white text-sm md:text-md lg:text-lg mt-2 py-4 text-center h-3/4 content-top">

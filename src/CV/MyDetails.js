@@ -9,7 +9,7 @@ const MyDetails = () => {
   return (
     <div className="bg-black h-4/5 rounded-xl overflow-y-scroll scrollbar mt-5 z-10">
       <div className="mx=auto max-w-7xl px-6 ">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-white ">
           Hello again! I am{" "}
           <span className="text-cyan-400 text-4xl ">
             {AllDetails.applicantDetails.shortName}.
@@ -19,7 +19,7 @@ const MyDetails = () => {
       </div>
       <div className="  mx-auto grid max-w-10xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-10 sm:px-6 sm:py-10 lg:max-w-10xl lg:grid-cols-2 lg:px-8">
         <div className="h-full">
-          <h2 className="text-3xl font-bold tracking-tight text-amber-400 sm:text-4xl">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-amber-400 ">
             My Basics
           </h2>
           <p className="mt-4 text-white">{basicInfo.headline}</p>
@@ -36,7 +36,7 @@ const MyDetails = () => {
           </dl>
         </div>
         <div className="h-full">
-          <h2 className="text-3xl font-bold tracking-tight text-amber-400 sm:text-4xl">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-amber-400 ">
             Education
           </h2>
           <p className="mt-4 text-white">{education.headline}</p>

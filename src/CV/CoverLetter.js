@@ -42,7 +42,7 @@ const CoverLetter = () => {
         <h1 className=" text-2xl w-full font-bold tracking-tight text-cyan-400 lg:text-4xl  text-center pt-2 md:pt-10">
           Welcome to My Application
         </h1>
-        <h1 className=" text-sm w-full  tracking-tight text-white lg:text-lg text-center pt-5">
+        <h1 className=" text-sm w-full  tracking-tight text-white md:text-md lg:text-lg text-center pt-3">
           I'm excited to share with you how my{" "}
           <span className="text-amber-400">background</span>,
           <span className="text-amber-400"> skills</span>, and
@@ -54,24 +54,24 @@ const CoverLetter = () => {
             {". "}
           </span>
         </h1>
-        <h1 className=" text-md w-full font-semibold tracking-tight text-white lg:text-lg  text-center pt-3 md:pt-10 ">
+        <h1 className=" text-sm md:text-md w-full font-semibold tracking-tight text-white lg:text-lg  text-center pt-2 md:pt-10 ">
           <span className="text-amber-400">Click </span> on each tab to know
           more
         </h1>
       </div>
-      <div className="min-w-full h-3/5 content-center ">
-        <div className=" flex flex-wrap flex-row gap-12 md:gap-16 w-full justify-center ">
+      <div className="w-full h-3/5 content-center pt-14 md:pt-10 sm:px-10 md:px-5 ">
+        <div className="grid grid-rows-3 grid-cols-2 sm:grid-rows-3 md:grid-rows-2 lg:grid-rows-1 md:grid-cols-3 lg:grid-cols-6 gap-x-8 gap-y-6 md:gap-x-16 md:gap-y-8 min-w-full justify-items-center ">
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className=" absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className=" absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section1_Visibility}
               >
                 WHO
               </button>
 
               <button
-                className="  absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="  absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section1_Visibility}
               >
                 Who Am I ?
@@ -81,14 +81,14 @@ const CoverLetter = () => {
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section2_Visibility}
               >
                 WHICH
               </button>
 
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section2_Visibility}
               >
                 Which Role?
@@ -99,14 +99,14 @@ const CoverLetter = () => {
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section3_Visibility}
               >
                 HOW
               </button>
 
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section3_Visibility}
               >
                 How Can I Fit?
@@ -117,14 +117,14 @@ const CoverLetter = () => {
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section4_Visibility}
               >
                 WHY
               </button>
 
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section4_Visibility}
               >
                 Why {AllDetails.companyDetails.companyName}?
@@ -135,14 +135,14 @@ const CoverLetter = () => {
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section5_Visibility}
               >
                 WHAT
               </button>
 
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section5_Visibility}
               >
                 What I Expect?
@@ -153,14 +153,14 @@ const CoverLetter = () => {
           <div className="group w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36">
             <div className=" relative shrink w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400/30 [backface-visibility:hidden] rounded-full shadow-2xl shadow-cyan-400    "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-white border-cyan-400 [backface-visibility:hidden] rounded-full shadow-lg shadow-cyan-400/60    "
                 onClick={section6_Visibility}
               >
                 WHEN
               </button>
 
               <button
-                className="absolute inset-0  text-sm md:text-md lg:text-lgw-24 h-24  lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-2xl  shadow-amber-400  "
+                className="absolute inset-0  text-sm md:text-md lg:text-lg w-24 h-24 md:w-30 md:h-30 lg:w-36 lg:h-36 bg-transparent border-double border-4 font-bold text-amber-400 [transform:rotateY(180deg)] [backface-visibility:hidden] border-amber-400/50 rounded-full shadow-lg  shadow-amber-400/60  "
                 onClick={section6_Visibility}
               >
                 When Can I Start?
@@ -169,7 +169,7 @@ const CoverLetter = () => {
           </div>
         </div>
       </div>
-      <div className="h-1/5 mt-10 flex flex-col items-center justify-center gap-x-6 gap-y-4">
+      <div className="h-1/5  flex flex-col items-center justify-center gap-x-6 gap-y-2 pt-5 ">
         <h1 className="rounded-md bg-transparent  px-3.5 py-1 text-sm font-semibold text-white text-center shadow-sm  ">
           Would you like to share something or connect with me?
         </h1>
