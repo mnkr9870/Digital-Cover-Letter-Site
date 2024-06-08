@@ -15,8 +15,8 @@ const Values = () => {
         </h1>
         <p className="text-white  text-sm md:text-md lg:text-lg pt-5 text-justify">
           {" "}
-          {valuesData.headlineDesc1}
-          {valuesData.headlineDesc2}
+          {valuesData.headlineDesc1} {valuesData.headlineDesc2}{" "}
+          {valuesData.headlineDesc3}
         </p>
       </div>
       <div className=" h-30 m-5 p-3 rounded-lg text-left ">
@@ -32,7 +32,7 @@ const Values = () => {
                   key={value.heading}
                   className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-white border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className="w-full text-center  text-xs md:text-md lg:text-lg">
+                  <h1 className="w-full text-center  text-xs md:text-md lg:text-lg text-wrap break-words">
                     {value.heading}
                   </h1>
                 </div>
@@ -60,7 +60,7 @@ const Values = () => {
                   key={value.heading}
                   className=" w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-amber-400 border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className=" text-center text-xs md:text-md lg:text-lg">
+                  <h1 className=" text-center text-xs md:text-md lg:text-lg text-wrap break-words">
                     {value.heading}
                   </h1>
                 </div>
