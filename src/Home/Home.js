@@ -37,7 +37,7 @@ const Home = () => {
           className="relative max-w-xl md:max-w-2xl min-h-full z-100   
                         mx-auto text-center pt-48 sm:pt-48 md:pt-60 lg:pt-80 xl:pt-70"
         >
-          <h1 className=" text-xl font-bold tracking-tight text-white md:text-2xl lg:text-4xl">
+          <h1 className="py-3 md:py-0 text-xl font-bold tracking-tight text-white md:text-2xl lg:text-4xl">
             Hello,
           </h1>
           <h1 className="py-4 uppercase text-4xl  sm:text-4xl md:text-6xl lg:text-6xl xl:text-7xl  font-bold tracking-tight animate-text bg-gradient-to-r from-cyan-50 via-cyan-400 to-cyan-600 bg-clip-text text-transparent">

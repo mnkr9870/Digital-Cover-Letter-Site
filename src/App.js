@@ -7,7 +7,7 @@ import Home from "./Home/Home";
 function App() {
   return (
     <GlobalProvider>
-      <div className="min-h-screen font-montserrat">
+      <div className="min-h-screen font-montserrat mainDiv">
         <Home />
         <CoverLetter />
         <Contact />

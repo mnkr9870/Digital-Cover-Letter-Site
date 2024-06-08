@@ -11,7 +11,7 @@ const MyDetails = () => {
       <div className="mx=auto max-w-7xl px-6 ">
         <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-white ">
           Hello again! I am{" "}
-          <span className="text-cyan-400 text-4xl ">
+          <span className="text-cyan-400 text-xl md:text-2xl lg:text-3xl ">
             {AllDetails.applicantDetails.shortName}.
           </span>
         </h2>

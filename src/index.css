@@ -11,7 +11,7 @@
 
   .scrollbar::-webkit-scrollbar-track {
     border-radius: 100vh;
-    background: #000000;
+    background: #303030;
   }
 
   .scrollbar::-webkit-scrollbar-thumb {
@@ -20,19 +20,23 @@
     border: 1px solid #000000;
   }
 
-  /* .scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #facc15;
+   body::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
   }
-  .scrollbar::-webkit-scrollbar-track:hover {
-    background: #fef3c7;
-  } */
-  .no-scrollbar::-webkit-scrollbar {
-          display: none;
-      }
-     /* Hide scrollbar for IE, Edge and Firefox */
-      .no-scrollbar {
-          -ms-overflow-style: none;  /* IE and Edge */
-          scrollbar-width: none;  /* Firefox */
-    }
+
+  body::-webkit-scrollbar-track {
+    width: 7px;
+    border-radius: 100vh;
+    background: #303030;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #facc15;
+    border-radius: 100vh;
+    border: 1px solid #000000;
+  }
+
+  
 
 }
