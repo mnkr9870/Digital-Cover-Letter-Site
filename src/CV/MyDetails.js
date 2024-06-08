@@ -8,7 +8,7 @@ const MyDetails = () => {
   console.log(education);
   return (
     <div className="bg-black h-4/5 rounded-xl overflow-y-scroll scrollbar mt-5 z-10">
-      <div className="mx=auto max-w-7xl px-6 ">
+      <div className="mx=auto w-full px-6 ">
         <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-white ">
           Hello again! I am{" "}
           <span className="text-cyan-400 text-xl md:text-2xl lg:text-3xl ">
