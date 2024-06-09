@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import hero from "../images/hero2.JPG";
+import { GlobalContext } from "../Context/GlobalContext";
 
 const Contact = () => {
+  const { AllDetails } = useContext(GlobalContext);
   return (
     <div className="mx-auto max-w-10xl h-screen bg-black content-center">
       <div className="mx-auto max-w-7x h-4/5 flex flex-col gap-5">
@@ -39,7 +41,7 @@ const Contact = () => {
               </svg>
             </div>
           </a>
-          <a href="#" >
+          <a href="#">
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <span>
                 <svg
@@ -53,10 +55,7 @@ const Contact = () => {
               </span>
             </div>
           </a>
-          <a
-            href="#"
-            
-          >
+          <a href="#">
             {" "}
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <span>
@@ -77,7 +76,7 @@ const Contact = () => {
               </span>
             </div>
           </a>
-          <a href="#" >
+          <a href="#">
             {" "}
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <span>
@@ -95,7 +94,7 @@ const Contact = () => {
             </div>
           </a>
 
-          <a href="#" >
+          <a href="#">
             <div className="sm:w-[6px] sm:h-[6px] md:w-[8px] md:h-[8px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,6 +112,16 @@ const Contact = () => {
               </svg>
             </div>
           </a>
+        </div>
+        <div className="m-auto py-1 my-5 px-5 w-full h-24 text-center align-middle bottom-0 ">
+          <h1 className="text-white font-semibold text-xs w-full">
+            Developed by{" "}
+            <span className="text-amber-400">
+              {AllDetails.applicantDetails.shortName}
+            </span>{" "}
+            using <span className="text-amber-400">React JS </span> and
+            <span className="text-amber-400"> Tailwind CSS</span>
+          </h1>
         </div>
       </div>
     </div>
