@@ -32,7 +32,7 @@ const Values = () => {
                   key={value.heading}
                   className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-white border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className="w-full text-center  text-xs md:text-md lg:text-lg text-wrap break-words">
+                  <h1 className="w-full text-center  text-xs md:text-md text-wrap break-words uppercase">
                     {value.heading}
                   </h1>
                 </div>
@@ -60,7 +60,7 @@ const Values = () => {
                   key={value.heading}
                   className=" w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[125px] lg:h-[125px] border-double border-4 hover:text-amber-400 border-cyan-500/50 hover:border-amber-500/50  rounded-3xl content-center shadow-lg shadow-cyan-400 hover:shadow-amber-400 "
                 >
-                  <h1 className=" text-center text-xs md:text-md lg:text-lg text-wrap break-words">
+                  <h1 className=" text-center text-xs md:text-md text-wrap break-words uppercase">
                     {value.heading}
                   </h1>
                 </div>
